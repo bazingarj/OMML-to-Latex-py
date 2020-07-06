@@ -234,8 +234,8 @@ class oMath2Latex(Tag2Method):
 		latex_chars = []
 		for stag,t,e in self.process_children_list(elm):
 			if stag == 'r':
-				if FUNC.get(t):
-					latex_chars.append(FUNC[t])
+				if FUNC.get(t.strip()):
+					latex_chars.append(FUNC[t.strip()])
 				else :
 					raise NotSupport("Not support func %s" % t)
 			else:
