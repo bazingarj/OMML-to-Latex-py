@@ -32,6 +32,7 @@ text='<m:oMath><m:rad><m:radPr><m:degHide m:val="1"/><m:ctrlPr></m:ctrlPr></m:ra
 from dwml import omml
 for omath in omml.load_string(pre+text+post):
     print(omath.latex)
+#OUTPUT: \sqrt{5}
 ```
 
 #### [A sample](https://github.com/xiilei/dwml/blob/master/tests/docx.py) that converting word math formula to latex 
