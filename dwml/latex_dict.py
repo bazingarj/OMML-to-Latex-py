@@ -206,19 +206,20 @@ T = {
 }
 
 FUNC ={
-	'sin' : '\\sin{fe}',
-	'cos' : '\\cos{fe}',
-	'tan' : '\\tan{fe}',
-	'arcsin' : '\\arcsin{fe}',
-	'arccos' : '\\arccos{fe}',
-	'arctan' : '\\arctan{fe}',
-	'arccot' : '\\arccot{fe}',
-	'sinh' : '\\sinh{fe}',
-	'cosh' : '\\cosh{fe}',
-	'tanh' : '\\tanh{fe}',
-	'coth' : '\\coth{fe}',
-	'sec'  : '\\sec{fe}',
-	'csc'  : '\\csc{fe}',
+	'sin' : 'sin{fe}',
+	'cos' : 'cos{fe}',
+	'tan' : 'tan{fe}',
+	'arcsin' : 'arcsin{fe}',
+	'arccos' : 'arccos{fe}',
+	'arctan' : 'arctan{fe}',
+	'arccot' : 'arccot{fe}',
+	'sinh' : 'sinh{fe}',
+	'cosh' : 'cosh{fe}',
+	'tanh' : 'tanh{fe}',
+	'coth' : 'coth{fe}',
+	'sec'  : 'sec{fe}',
+	'csc'  : 'csc{fe}',
+	'cot'  : 'cot{fe}'
 }
 
 FUNC_PLACE = '{fe}'
