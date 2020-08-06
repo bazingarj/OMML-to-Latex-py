@@ -23,7 +23,7 @@ CHR = {
 	'\u0302' : '\\hat{{{0}}}',
 	'\u0303' : '\\tilde{{{0}}}',
 	'\u0304' : '\\bar{{{0}}}',
-	'\u0305' : '\\overbar{{{0}}}',
+	'\u0305' : '\\bar{{{0}}}',
 	'\u0306' : '\\breve{{{0}}}',
 	'\u0307' : '\\dot{{{0}}}',
 	'\u0308' : '\\ddot{{{0}}}',
@@ -35,6 +35,11 @@ CHR = {
 	'\u0315' : '\\ocommatopright{{{0}}}',
 	'\u031a' : '\\droang{{{0}}}',
 	'\u0338' : '\\not{{{0}}}',
+	'\u0331' : '\\underset{{\\bar{{}}}}{{{0}}}',
+    	'\u0333' : '\\underline{{\\underline{{{0}}}}}',
+    	'\u033F' : '\\overline{{\\overline{{{0}}}}}',
+
+	
 	'\u20d0' : '\\leftharpoonaccent{{{0}}}',
 	'\u20d1' : '\\rightharpoonaccent{{{0}}}',
 	'\u20d2' : '\\vertoverlay{{{0}}}',
