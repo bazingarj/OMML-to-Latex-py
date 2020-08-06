@@ -241,7 +241,7 @@ POS = {
 }
 
 POS_DEFAULT = {
-	'BAR_VAL': '\\overline{{{0}}}',
+	'BAR_VAL': '\\underline{{{0}}}',
 }
 
 SUB = '_{{{0}}}'
